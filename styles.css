@@ -552,7 +552,7 @@
 
 .social__media--wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 90%;
   max-width: 1000px;
@@ -640,3 +640,36 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 820px) {
+  .audio {
+    padding-top: 3rem;
+  }
+
+  .audio__container {
+    padding-top: 3rem;
+  }
+
+  .audio__content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .audio {
+    padding-top: 2rem;
+  }
+
+  .audio__container {
+    padding-top: 2rem;
+  }
+
+  .audio__content {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+}
+
